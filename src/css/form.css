@@ -1,0 +1,81 @@
+@import './colors.css';
+@import './utility.css';
+@import './base.css';
+@import './components/welcome.css';
+
+body {
+  color: #193251;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.form-template {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.stars {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  height: 35.75pxpx;
+  width: 34.46px;
+}
+
+.motto {
+  width: 315px;
+  height: 62px;
+}
+
+.notes {
+  width: 315px;
+  height: 124px;
+}
+
+.button1 {
+  width: 152px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.button2 {
+  background-color: #ff5a36;
+  width: 152px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  margin-left: 2px;
+}
+
+.form-comprehension {
+  display: inline;
+}
+
+.retangle {
+  display: inline-flex;
+  border: #7589a2 1.5px solid;
+  border-radius: 4.8px;
+  width: 26px;
+  height: 26px;
+}
+
+.form-buttons {
+  margin-top: 35px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
