@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 .center-content {
-=======
-/* .center-content {
->>>>>>> 017c0de30f20d04b13e5aa8cff1bab81e13b6b63
   display: grid;
   grid-template-rows: 80px auto 80px;
   grid-template-columns: 100vw;
   height: 100vh;
   min-width: 320px;
-} */
+}
 
 .bg-primary {
   background: var(--color-primary);
