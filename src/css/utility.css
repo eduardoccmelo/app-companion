@@ -1,10 +1,7 @@
 .center-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.height-100vh {
+  display: grid;
+  grid-template-rows: 80px auto 80px;
+  grid-template-columns: 100vw;
   height: 100vh;
 }
 
