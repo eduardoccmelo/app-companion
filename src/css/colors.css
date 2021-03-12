@@ -1,4 +1,8 @@
 :root {
-  --color-primary: springgreen;
+  --color-primary: #eee;
+<<<<<<< HEAD
   --color-secondary: #2b2826;
+=======
+  --color-secondary: #000;
+>>>>>>> 017c0de30f20d04b13e5aa8cff1bab81e13b6b63
 }
