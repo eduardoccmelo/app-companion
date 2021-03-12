@@ -43,7 +43,19 @@
   grid-row: 3 / 4;
   align-self: center;
   justify-self: center;
-  margin: 0;
+  margin-bottom: 100px;
+  border: black solid 2px;
+  border-radius: 10px;
+  width: 360px;
+  box-shadow: 0 2px 11px 0 #193251;
+  background-color: white;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 11px 30px;
 }
 
 .footer p {
