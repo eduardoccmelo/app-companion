@@ -10,7 +10,6 @@ html {
 body {
   font-size: 112.5%;
   font-family: sans-serif;
-  background-image: url("/app-companion/design/background_shape_1.svg");
+  background-image: url('/app-companion/design/background_shape_1.svg');
   background-color: #cccccc;
-   }
 }
