@@ -19,6 +19,15 @@
   width: 375px;
   height: 59px;
   background-image: url('../../design/background_shape_1.svg');
+  position: relative;
+}
+
+.subtitle1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-38px, -10px);
+  font-size: 12px;
 }
 
 .title {
@@ -75,6 +84,7 @@ p {
 .plus {
   position: relative;
   border-radius: 6px;
+  margin-bottom: 20px;
 }
 
 .plus-position {
@@ -98,9 +108,9 @@ p {
 }
 
 .journal {
+  border: 1px solid #e0e4e8;
   border-radius: 6px;
   padding: 20px;
-  box-shadow: 0px 2px 11px #193251;
 }
 
 .journal__star-empty {
