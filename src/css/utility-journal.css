@@ -20,6 +20,8 @@
   height: 59px;
   background-image: url('../../design/background_shape_1.svg');
   position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
 }
 
 .subtitle {
