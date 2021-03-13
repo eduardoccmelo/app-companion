@@ -100,7 +100,8 @@ p {
 .journal {
   border-radius: 6px;
   padding: 20px;
-  box-shadow: 0px 2px 11px #193251;
+  margin: 0 8px;
+  box-shadow: 0px 2px 11px 0px rgb(25, 50, 81, 0.2);
 }
 
 .journal__star-empty {
