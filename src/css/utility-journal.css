@@ -152,6 +152,7 @@ p {
   box-shadow: 0px 2px 11px #7589a2;
   margin: 20px auto;
   margin-left: 20%;
+  cursor: pointer;
 }
 
 .motto {
