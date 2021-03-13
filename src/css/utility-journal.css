@@ -1,3 +1,12 @@
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .template {
   display: grid;
   grid-template-columns: 1fr;
@@ -40,6 +49,7 @@
 }
 
 .main {
+  overflow: hidden;
   overflow-y: scroll;
   grid-row: 2 / 3;
   margin: 0 auto;
@@ -151,8 +161,9 @@ p {
   padding: 12px 44px;
   box-shadow: 0px 2px 11px #7589a2;
   margin: 20px auto;
-  margin-left: 20%;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 .motto {
