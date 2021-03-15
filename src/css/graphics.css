@@ -13,9 +13,7 @@ body {
 
 .page-template {
   display: grid;
-  align-items: center;
   justify-items: center;
-  width: 315px;
 }
 .graphic,
 .graphic-bars {
