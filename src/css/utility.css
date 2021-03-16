@@ -1,12 +1,13 @@
 .template {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 59px 1fr 79px;
-  height: 820px;
+  grid-template-rows: 59px auto;
   width: 375px;
   margin: 0 auto;
   gap: 5px;
   overflow: hidden;
+  padding-bottom: 70px;
 }
 
 .bg-primary {
@@ -141,13 +142,12 @@ p {
 }
 
 .footer {
-  grid-row: 3 / 4;
-  align-self: center;
-  justify-self: center;
-  border-radius: 10px;
-  width: 335px;
-  margin: 0 auto;
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
   box-shadow: 0 2px 11px 0 #e0e4e8;
+  background: white;
 }
 
 .icons {
